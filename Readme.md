@@ -8,7 +8,7 @@ python-practice/
 ├── README.md
 ├── 01-basics/
 │   ├── numbers.py
-│   └──  strings.py
+│   └── strings.py
 ├── 02-data-structures/
 │   ├── lists.py
 
