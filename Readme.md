@@ -1,11 +1,9 @@
-# Tracking my refresher course content in Python
+Tracking my refresher course content in Python
+Goal
 
-## Goal
+Refresh general Python fundamentals to sharpen skills already built through BudgetWise and other data projects. Confirm strengths, catch any gaps before moving to advanced automation work.
 
-Refresh general Python fundamentals to sharpen skills already built through Budgetwise and other data projects. Confirm strengths, catch any gaps before moving to advanced automation work.
-
-## Folder Structure
-
+Folder Structure
 python-practice/
 ├── README.md
 ├── 01-basics/
@@ -13,17 +11,15 @@ python-practice/
 │   └── strings.py
 ├── 02-data-structures/
 │   ├── lists.py
-
-## Progress Log
-
-### Aug 5, 2026 - numbers
+Progress Log
+Aug 5, 2026 - numbers
 
 Refreshed arithmetic operators, floor division, modulus, and exponentiation. Confirmed solid.
 
-### Aug 5, 2026 - lists
+Aug 5, 2026 - lists
 
 Covered indexing, slicing, concatenation, list comprehension, and built-in methods like append and nesting. Confirmed solid.
 
-### Aug 5, 2026 - strings
+Aug 5, 2026 - strings
 
 Reviewed string indexing, slicing, immutability, and format(). Confirmed solid.
