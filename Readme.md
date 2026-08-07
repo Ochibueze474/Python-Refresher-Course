@@ -24,6 +24,7 @@ python-practice/
 │   └── loop_clauses
 ├── 04-modules-and-errors/
 │   ├── modules.py
+│   └── errors_exceptions.py
 ```
 
 ## Progress Log
