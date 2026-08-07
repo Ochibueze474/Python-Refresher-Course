@@ -22,6 +22,8 @@ python-practice/
 │   ├── match_statements.py
 │   ├── loops.py
 │   └── loop_clauses
+├── 04-modules-and-errors/
+│   ├── modules.py
 ```
 
 ## Progress Log
@@ -65,3 +67,7 @@ Covered for loops over lists and dictionaries, safe dictionary iteration using c
 ### Aug 7, 2026 - loop_clauses
 
 Covered break, continue, else on loops, and pass as a placeholder for classes and functions. The else on loops was new territory, easy to confuse with if-else at first glance since it only runs when no break occurs. Rest confirmed solid.
+
+### Aug 7, 2026 - modules
+
+Covered importing functions across files to avoid repeating code, the DRY principle, and calling imported functions inside a new script. Confirmed solid.
