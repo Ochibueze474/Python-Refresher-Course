@@ -71,3 +71,7 @@ Covered break, continue, else on loops, and pass as a placeholder for classes an
 ### Aug 7, 2026 - modules
 
 Covered importing functions across files to avoid repeating code, the DRY principle, and calling imported functions inside a new script. Confirmed solid.
+
+### Aug 7, 2026 - errors
+
+Covered the difference between syntax errors and exceptions, Python's built-in exception types, handling exceptions with try/except, catching multiple exception types in a tuple, and the else and finally clauses in try statements. Confirmed solid.

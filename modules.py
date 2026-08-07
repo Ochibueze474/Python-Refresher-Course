@@ -10,7 +10,6 @@ DRY!....Don't repeat yourself
 Pythons standard library can be found here https://docs.python.org/3/library/
 '''
 
-
 from functions import demo_func
 
 def func_1(arg:int):
