@@ -20,6 +20,7 @@ python-practice/
 ├── 03-control-flow/
 │   ├── if_statements.py
 │   ├── match_statements.py
+│   ├── loops.py
 
 ```
 
@@ -56,3 +57,7 @@ Covered if, elif, else with a simple function example. Confirmed solid, straight
 ### Aug 6, 2026 - match
 
 New syntax from Python 3.10, not something covered in earlier data project work. Reviewed match with literal patterns, OR patterns using pipe, tuple unpacking patterns, and class pattern matching with dataclass. This one needs more repetition to stick.
+
+### Aug 6, 2026 - loops
+
+Covered for loops over lists and dictionaries, safe dictionary iteration using copy, building a new collection through filtering, and the range function with start, stop, and step. Confirmed solid.
