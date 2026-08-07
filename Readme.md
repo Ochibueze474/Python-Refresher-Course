@@ -21,7 +21,7 @@ python-practice/
 │   ├── if_statements.py
 │   ├── match_statements.py
 │   ├── loops.py
-
+│   └── loop_clauses
 ```
 
 ## Progress Log
@@ -58,6 +58,10 @@ Covered if, elif, else with a simple function example. Confirmed solid, straight
 
 New syntax from Python 3.10, not something covered in earlier data project work. Reviewed match with literal patterns, OR patterns using pipe, tuple unpacking patterns, and class pattern matching with dataclass. This one needs more repetition to stick.
 
-### Aug 6, 2026 - loops
+### Aug 7, 2026 - loops
 
 Covered for loops over lists and dictionaries, safe dictionary iteration using copy, building a new collection through filtering, and the range function with start, stop, and step. Confirmed solid.
+
+### Aug 7, 2026 - loop_clauses
+
+Covered break, continue, else on loops, and pass as a placeholder for classes and functions. The else on loops was new territory, easy to confuse with if-else at first glance since it only runs when no break occurs. Rest confirmed solid.
