@@ -25,6 +25,8 @@ python-practice/
 ├── 04-modules-and-errors/
 │   ├── modules.py
 │   └── errors_exceptions.py
+├── 05-oop/
+│   └── classes.py
 ```
 
 ## Progress Log
