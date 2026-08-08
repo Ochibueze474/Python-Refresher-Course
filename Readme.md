@@ -78,3 +78,7 @@ Covered importing functions across files to avoid repeating code, the DRY princi
 ### Aug 7, 2026 - errors
 
 Covered the difference between syntax errors and exceptions, Python's built-in exception types, handling exceptions with try/except, catching multiple exception types in a tuple, and the else and finally clauses in try statements. Confirmed solid.
+
+### Aug 7, 2026 - classes
+
+Covered class basics, instance creation, init for passing arguments, instance attributes versus class variables, adding and deleting attributes, and inheritance with method overriding using a subclass. Confirmed solid, this is where general programming depth mattered most compared to project work so far.
