@@ -11,7 +11,8 @@ python-practice/
 ├── README.md
 ├── 01-basics/
 │   ├── numbers.py
-│   └── strings.py
+│   ├── strings.py
+│   └── variables,py
 ├── 02-data-structures/
 │   ├── lists.py
 │   ├── tuples.py
@@ -82,3 +83,7 @@ Covered the difference between syntax errors and exceptions, Python's built-in e
 ### Aug 7, 2026 - classes
 
 Covered class basics, instance creation, init for passing arguments, instance attributes versus class variables, adding and deleting attributes, and inheritance with method overriding using a subclass. Confirmed solid, this is where general programming depth mattered most compared to project work so far.
+
+### Aug 10, 2026 - variables, Bro Code
+
+Reviewed variable containers for strings, integers, floats, and booleans, with f-string formatting and boolean conditionals. Already confirmed solid from earlier fundamentals, no new gaps.
