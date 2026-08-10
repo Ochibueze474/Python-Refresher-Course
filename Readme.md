@@ -14,7 +14,8 @@ python-practice/
 │   ├── strings.py
 │   ├── variables.py
 │   ├── typecasting.py
-│   └── user_input.py
+│   ├── user_input.py
+│   └── arithmetic_math.py 
 ├── 02-data-structures/
 │   ├── lists.py
 │   ├── tuples.py
@@ -97,3 +98,7 @@ Reviewed converting between str, int, float, and bool, including how a non-empty
 ### Aug 10, 2026 - user_input, Bro Code
 
 Reviewed input() and its string return type, converting input with int() and float() before doing math, plus two small practice programs, a rectangle area calculator and a shopping cart total. Confirmed solid.
+
+### Aug 10, 2026 - arithmetic_math, Bro Code
+
+Covered augmented assignment operators, built-in functions round, abs, pow, max, min, and the math module including pi, e, sqrt, ceil, and floor. Applied to three practice programs: circle circumference, circle area, and the Pythagorean theorem. New ground beyond Bobby Stearman's numbers.py, which did not cover the math module. Confirmed solid.
