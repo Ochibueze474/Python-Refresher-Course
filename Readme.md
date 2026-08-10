@@ -12,7 +12,9 @@ python-practice/
 ├── 01-basics/
 │   ├── numbers.py
 │   ├── strings.py
-│   └── variables,py
+│   ├── variables.py
+│   ├── typecasting.py
+│   └── user_input.py
 ├── 02-data-structures/
 │   ├── lists.py
 │   ├── tuples.py
@@ -87,3 +89,11 @@ Covered class basics, instance creation, init for passing arguments, instance at
 ### Aug 10, 2026 - variables, Bro Code
 
 Reviewed variable containers for strings, integers, floats, and booleans, with f-string formatting and boolean conditionals. Already confirmed solid from earlier fundamentals, no new gaps.
+
+### Aug 10, 2026 - typecasting, Bro Code
+
+Reviewed converting between str, int, float, and bool, including how a non-empty string converts to True and an empty string converts to False, and the TypeError that comes from adding an int directly to a string. Confirmed solid.
+
+### Aug 10, 2026 - user_input, Bro Code
+
+Reviewed input() and its string return type, converting input with int() and float() before doing math, plus two small practice programs, a rectangle area calculator and a shopping cart total. Confirmed solid.
