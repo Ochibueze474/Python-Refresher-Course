@@ -25,7 +25,10 @@ python-practice/
 │   ├── if_statements.py
 │   ├── match_statements.py
 │   ├── loops.py
-│   └── loop_clauses
+│   ├── loop_clauses
+│   ├── calculator.py
+│   ├── temperature_conversion.py
+│   └── weight_converter.py
 ├── 04-modules-and-errors/
 │   ├── modules.py
 │   └── errors_exceptions.py
@@ -102,3 +105,19 @@ Reviewed input() and its string return type, converting input with int() and flo
 ### Aug 10, 2026 - arithmetic_math, Bro Code
 
 Covered augmented assignment operators, built-in functions round, abs, pow, max, min, and the math module including pi, e, sqrt, ceil, and floor. Applied to three practice programs: circle circumference, circle area, and the Pythagorean theorem. New ground beyond Bobby Stearman's numbers.py, which did not cover the math module. Confirmed solid.
+
+### Aug 11, 2026 - if_statements, case fix
+
+Fixed the case sensitivity issue flagged earlier: prompt now reads "yes/no" lowercase to match the comparison. Confirmed solid.
+
+### Aug 11, 2026 - calculator, Bro Code
+
+Built a calculator program using if-elif-else with operator input as a string, handling addition, subtraction, multiplication, and division, plus an else branch to catch invalid operators. Confirmed solid.
+
+### Aug 11, 2026 - temperature_conversion, Bro Code
+
+Built a Celsius to Fahrenheit and Fahrenheit to Celsius converter using if-elif-else based on unit input. Confirmed solid.
+
+### Aug 11, 2026 - weight_converter, Bro Code
+
+Built a kilograms to pounds and pounds to kilograms converter using if-elif-else based on unit input. Confirmed solid.
