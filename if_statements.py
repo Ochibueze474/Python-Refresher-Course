@@ -36,3 +36,43 @@ number_play(-1)
 number_play(0)
 number_play(1)
 number_play(4)
+
+
+age = int(input("Enter your age: "))
+
+if age >= 100:
+    print("You are too old to sign up!")
+elif age >= 18:
+    print("You are now signed up!")
+elif age <= 0:
+    print("Incorrect age")
+else:
+    print("You are not up to 18+")
+
+response = input("Have you taken your breakfast(yes/no):")
+
+if response == "yes":
+    print("Okay thats good")
+else:
+    print("Get something to eat from the fridge and microwave")
+
+name = input("Enter your name: ")
+
+if name == "":
+    print("You did not put in your name")
+else:
+    print(f"Hello {name}")
+
+for_sale = True
+
+if for_sale:
+    print("This item is for sale")
+else:
+    print("This item is not for sale")
+
+online = False
+
+if online:
+    print("This user is online")
+else:
+    print("This user is offline")
