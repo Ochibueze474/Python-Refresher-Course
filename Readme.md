@@ -15,7 +15,9 @@ python-practice/
 │   ├── variables.py
 │   ├── typecasting.py
 │   ├── user_input.py
-│   └── arithmetic_math.py 
+│   ├── arithmetic_math.py 
+│   ├── string_method.py
+│   └── string_indexes.py
 ├── 02-data-structures/
 │   ├── lists.py
 │   ├── tuples.py
@@ -28,7 +30,9 @@ python-practice/
 │   ├── loop_clauses
 │   ├── calculator.py
 │   ├── temperature_conversion.py
-│   └── weight_converter.py
+│   ├── weight_converter.py
+│   ├── logical_operators.py
+│   └── conditional_expression.py
 ├── 04-modules-and-errors/
 │   ├── modules.py
 │   └── errors_exceptions.py
@@ -121,3 +125,19 @@ Built a Celsius to Fahrenheit and Fahrenheit to Celsius converter using if-elif-
 ### Aug 11, 2026 - weight_converter, Bro Code
 
 Built a kilograms to pounds and pounds to kilograms converter using if-elif-else based on unit input. Confirmed solid.
+
+### Aug 12, 2026 - logical_operators, Bro Code
+
+Covered or, and, and not for combining multiple conditions, including a nested example combining temperature and weather state across six branches. Confirmed solid.
+
+### Aug 12, 2026 - conditional_expression, Bro Code
+
+Covered the ternary operator, a one-line shortcut for if-else, applied across six examples including finding max and min, checking even or odd, and role-based access checks. Confirmed solid.
+
+### Aug 12, 2026 - string_method, Bro Code
+
+Covered string methods find, rfind, capitalize, upper, lower, isdigit, isalpha, count, and replace, applied to a username validation exercise checking length, spaces, and digits. Confirmed solid.
+
+### Aug 12, 2026- string_indexes, Bro Code
+
+Covered string slicing with start, end, and step, including negative indexing, step slicing to skip characters, extracting the last four digits of a credit number, and reversing a string using [::-1]. Confirmed solid.

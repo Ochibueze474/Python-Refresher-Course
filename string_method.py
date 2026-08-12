@@ -1,17 +1,17 @@
 
-#name = input("Enter your name: ")
-#phone = input("Enter your phone #: ")
+name = input("Enter your name: ")
+phone = input("Enter your phone #: ")
 
-#name = len(name)
-#result = name.find("a")
-#result = name.rfind("a") # it find the result reversed 
-#result = name.capitalize() # it capitalize the first letter of the word
-#result = name.upper() # it capitalize the word entirely
-#result = name.lower() # it makes it small letter words 
-#result = name.isdigit() # it checks if it a number without alphabet
-#result = name.isalpha() # it checks if the entire word is a is alpphabet without number
-#result = phone.count("-")
-#result = phone.replace("-", "")
+name = len(name)
+result = name.find("a")
+result = name.rfind("a") # it find the result reversed 
+result = name.capitalize() # it capitalize the first letter of the word
+result = name.upper() # it capitalize the word entirely
+result = name.lower() # it makes it small letter words 
+result = name.isdigit() # it checks if it a number without alphabet
+result = name.isalpha() # it checks if the entire word is a is alpphabet without number
+result = phone.count("-")
+result = phone.replace("-", "")
 
 # print(result)
 
