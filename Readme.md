@@ -13,11 +13,12 @@ python-practice/
 │   ├── numbers.py
 │   ├── strings.py
 │   ├── variables.py
-│   ├── typecasting.py
 │   ├── user_input.py
-│   ├── arithmetic_math.py 
+│   ├── typecasting.py
+│   ├── arithmetic_math.py
+│   ├── string_indexes.py
 │   ├── string_method.py
-│   └── string_indexes.py
+│   └── format_specifiers.py
 ├── 02-data-structures/
 │   ├── lists.py
 │   ├── tuples.py
@@ -25,14 +26,19 @@ python-practice/
 │   └── dictionaries.py
 ├── 03-control-flow/
 │   ├── if_statements.py
-│   ├── match_statements.py
+│   ├── match.py
 │   ├── loops.py
-│   ├── loop_clauses
+│   ├── loop_clauses.py
 │   ├── calculator.py
 │   ├── temperature_conversion.py
 │   ├── weight_converter.py
+│   ├── conditional_expression.py
 │   ├── logical_operators.py
-│   └── conditional_expression.py
+│   ├── while_loops.py
+│   ├── compound_interest_calculator.py 
+│   ├── for_loops.py
+│   ├── countdown_timer_program.py
+│   └── nested_loop.py
 ├── 04-modules-and-errors/
 │   ├── modules.py
 │   └── errors_exceptions.py
@@ -141,3 +147,28 @@ Covered string methods find, rfind, capitalize, upper, lower, isdigit, isalpha, 
 ### Aug 12, 2026- string_indexes, Bro Code
 
 Covered string slicing with start, end, and step, including negative indexing, step slicing to skip characters, extracting the last four digits of a credit number, and reversing a string using [::-1]. Confirmed solid.
+
+### Aug 13, 2026 - format_specifiers, Bro Code
+
+Covered format specifier flags inside f-strings: decimal places, thousand separators, right and left alignment, zero padding, centering, and forcing a positive sign, including combining multiple flags together. Confirmed solid.
+
+
+### Aug 13, 2026 - while_loops, Bro Code
+
+Covered while loop validation patterns, repeating a prompt until valid input is given, applied across four examples, name entry, non-negative age, quit-on-command food list, and range validation. Confirmed solid.
+
+### Aug 14, 2026 - compound_interest_calculator, Bro Code
+
+Built a compound interest calculator combining three while loop validation blocks with the compound interest formula. Ties while loop validation and arithmetic together in one program. Confirmed solid.
+
+### Aug 14, 2026 - for_loops, Bro Code
+
+Covered for loops over a range, reversed range for countdown, stepping by 2, iterating over string characters, and continue versus break inside a loop. Confirmed solid.
+
+### Aug 14, 2026 - countdown_timer_program, Bro Code
+
+Built a countdown timer using a for loop counting down, converting seconds into hours, minutes, and seconds with modulus and division, and the time module to pause execution each second. Confirmed solid.
+
+### Aug 14, 2026 - nested_loop, Bro Code
+
+Covered a loop inside another loop, building a grid pattern from rows, columns, and a symbol input. This was new ground, first time combining two loops together, took a moment to see how the inner loop completes fully before the outer loop moves forward.
