@@ -7,7 +7,7 @@ Refresh general Python fundamentals to sharpen skills already built through Budg
 ## Folder Structure
 
 Note: mini-projects built before Aug 16, 2026 sit inside their related concept 
-folder. From Aug 16, 2026 onward, new mini-projects go into 06-mini-projects.
+folder. From Aug 17, 2026 onward, new mini-projects go into 06-mini-projects.
 
 ```
 python-practice/
@@ -21,12 +21,14 @@ python-practice/
 │   ├── arithmetic_math.py
 │   ├── string_indexes.py
 │   ├── string_method.py
-│   └── format_specifiers.py
+│   ├── format_specifiers.py
+│   ├── random_numbers.py
 ├── 02-data-structures/
 │   ├── lists.py
 │   ├── tuples.py
 │   ├── sets.py
-│   └── dictionaries.py
+│   ├── dictionaries.py
+│   ├──2D_collection.py
 ├── 03-control-flow/
 │   ├── if_statements.py
 │   ├── match.py
@@ -41,15 +43,19 @@ python-practice/
 │   ├── compound_interest_calculator.py 
 │   ├── for_loops.py
 │   ├── countdown_timer_program.py
-│   └── nested_loop.py
+│   ├── nested_loop.py
+│   ├── shopping_cart_program.py
+│   ├── quiz_game.py
 ├── 04-modules-and-errors/
 │   ├── modules.py
 │   └── errors_exceptions.py
 ├── 05-oop/
 │   └── classes.py
 └── 06-mini-projects/
-│   ├──
-│   ├──
+│   ├── concession_stand_program.py
+│   ├── number_guessing_game.py
+│   ├── rock_paper_scissors_game.py
+│   ├── dice_roller_program.py
 ```
 
 ## Progress Log
@@ -178,3 +184,43 @@ Built a countdown timer using a for loop counting down, converting seconds into 
 ### Aug 14, 2026 - nested_loop, Bro Code
 
 Covered a loop inside another loop, building a grid pattern from rows, columns, and a symbol input. This was new ground, first time combining two loops together, took a moment to see how the inner loop completes fully before the outer loop moves forward.
+
+### Aug 14, 2026 - shopping_cart_program, Bro Code
+
+Built a shopping cart program using two parallel lists for items and prices, a while loop for repeated entry, and a running total. Confirmed solid.
+
+### Aug 15, 2026 - 2D_collection, Bro Code
+
+Covered nested lists and tuples, indexing into a 2D structure, and looping through a nested collection with a nested for loop, applied to grocery categories, a skillset list, and a dial pad layout. Confirmed solid, ties directly into nested_loop concept covered earlier.
+
+### Aug 16, 2026 - quiz_game, Bro Code
+
+Built a quiz game using parallel tuples for questions, options, and answers, a for loop with a manual counter to track question number, and score calculated as a percentage. Confirmed solid.
+
+### Aug 17, 2026 - concession_stand_program, Bro Code, first mini-project in new folder
+
+Built a menu ordering system using a dictionary for menu items and prices, a while loop for repeated input, and dictionary lookups with get() to validate selections. Confirmed solid.
+
+### Aug 17, 2026 - random_numbers, Bro Code
+
+Covered the random module: randint for whole numbers in a range, random for a decimal between 0 and 1, choice for picking from a sequence, and shuffle for reordering a list in place. Confirmed solid, ties directly into random use already seen in dice_roller_program and number_guessing_game.
+
+### Aug 17, 2026 - number_guessing_game, Bro Code
+
+Built a number guessing game using random.randint, a while loop tied to a running flag, and isdigit() to validate input before converting to int. Confirmed solid.
+
+### Aug 17, 2026 - rock_paper_scissors_game, Bro Code
+
+Built a rock paper scissors game using random.choice, nested while loops for input validation and replay, and if-elif-else to determine the winner. Confirmed solid.
+
+### Aug 17, 2026 - dice_roller_program, Bro Code
+
+Built a dice roller using random.randint, a dictionary mapping numbers to ASCII dice art, and nested loops to print multiple dice side by side. New ground combining random, dictionaries, and formatted text output together.
+
+
+
+
+
+
+
+
