@@ -6,6 +6,9 @@ Refresh general Python fundamentals to sharpen skills already built through Budg
 
 ## Folder Structure
 
+Note: mini-projects built before Aug 16, 2026 sit inside their related concept 
+folder. From Aug 16, 2026 onward, new mini-projects go into 06-mini-projects.
+
 ```
 python-practice/
 ├── README.md
@@ -44,6 +47,9 @@ python-practice/
 │   └── errors_exceptions.py
 ├── 05-oop/
 │   └── classes.py
+└── 06-mini-projects/
+│   ├──
+│   ├──
 ```
 
 ## Progress Log
