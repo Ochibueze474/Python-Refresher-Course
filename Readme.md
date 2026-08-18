@@ -164,7 +164,6 @@ Covered string slicing with start, end, and step, including negative indexing, s
 
 Covered format specifier flags inside f-strings: decimal places, thousand separators, right and left alignment, zero padding, centering, and forcing a positive sign, including combining multiple flags together. Confirmed solid.
 
-
 ### Aug 13, 2026 - while_loops, Bro Code
 
 Covered while loop validation patterns, repeating a prompt until valid input is given, applied across four examples, name entry, non-negative age, quit-on-command food list, and range validation. Confirmed solid.
