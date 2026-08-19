@@ -40,7 +40,7 @@ def http_error(status):
         case 418:
             return "Slow network"
         case _:
-            return "Something's worng with the internet"
+            return "Something's wrong with the internet"
 
 http_error(401)
 http_error(405)   
