@@ -22,13 +22,14 @@ python-practice/
 │   ├── string_indexes.py
 │   ├── string_method.py
 │   ├── format_specifiers.py
-│   ├── random_numbers.py
+│   └── random_numbers.py
 ├── 02-data-structures/
 │   ├── lists.py
 │   ├── tuples.py
 │   ├── sets.py
 │   ├── dictionaries.py
-│   ├──2D_collection.py
+│   ├── 2D_collection.py
+│   └── list_comprehension.py
 ├── 03-control-flow/
 │   ├── if_statements.py
 │   ├── match.py
@@ -46,16 +47,24 @@ python-practice/
 │   ├── nested_loop.py
 │   ├── shopping_cart_program.py
 │   ├── quiz_game.py
+│   └── membership_operators.py
 ├── 04-modules-and-errors/
 │   ├── modules.py
-│   └── errors_exceptions.py
+│   ├── errors_exceptions.py
+│   ├── function.py
+│   ├── default_arguments.py
+│   ├── keyword_argument.py
+│   └── args_&_kwargs.py
 ├── 05-oop/
 │   └── classes.py
 └── 06-mini-projects/
 │   ├── concession_stand_program.py
 │   ├── number_guessing_game.py
 │   ├── rock_paper_scissors_game.py
-│   ├── dice_roller_program.py
+│   └── dice_roller_program.py
+└── 07-name-main-pattern/
+    ├── script1.py
+    └── script2.py
 ```
 
 ## Progress Log
@@ -216,10 +225,34 @@ Built a rock paper scissors game using random.choice, nested while loops for inp
 
 Built a dice roller using random.randint, a dictionary mapping numbers to ASCII dice art, and nested loops to print multiple dice side by side. New ground combining random, dictionaries, and formatted text output together.
 
+### Aug 18, 2026 - function, Bro Code
 
+Covered defining functions, calling them with different arguments, and return to send a value back to the caller, applied across birthday greetings, invoice display, basic math operations, and name formatting.
 
+### Aug 18, 2026 - default_arguments, Bro Code
 
+Covered setting default parameter values so arguments can be omitted, reducing how many values need to be passed in, applied to a pricing calculation and a countdown-style counter. 
 
+### Aug 18, 2026 - keyword_argument, Bro Code
 
+Covered passing arguments by name instead of position, so order does not matter, applied to a greeting function and a phone number builder. 
 
+### Aug 18, 2026 - args_&_kwargs, Bro Code
 
+Covered *args for multiple non-keyword arguments and **kwargs for multiple keyword arguments, including combining both together in one function, applied to a shipping label builder. This one took more repetition to fully click, first time seeing the unpacking operator used this way.
+
+### Aug 19, 2026 - membership_operators, Bro Code
+
+Covered in and not in for checking whether a value exists inside a string, set, or dictionary, applied to a letter guessing check, a student lookup, a grade lookup, and a basic email validation check combining membership with and.
+
+### Aug 19, 2026 - list_comprehension, Bro Code
+
+Covered building lists in one line instead of a full loop, including conditionals inside the comprehension to filter values, applied to doubling numbers, capitalizing strings, and filtering positive, negative, even, odd, and passing grades.
+
+### Aug 19, 2026 - match, Bro Code addition
+
+Added match-case as an alternative to long elif chains, applied to a day-of-week lookup and a weekend check using the pipe symbol to match multiple values in one case. Builds on the match fundamentals from Bobby Stearman's version, this addition reinforced it further with cleaner, more practical use cases.
+
+### Aug 19, 2026 - script1 & script2, Bro Code
+
+Covered if name == "main": for writing code that can be imported into another file without automatically running, keeping functions reusable and avoiding unintended execution. script1.py defines a function and its own main() guarded by the block; script2.py imports script1 with a wildcard import and reuses favourite_food inside its own separate main(). First real use of splitting logic across two files and controlling what runs where
