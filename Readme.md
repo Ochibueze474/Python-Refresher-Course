@@ -61,7 +61,8 @@ python-practice/
 │   ├── concession_stand_program.py
 │   ├── number_guessing_game.py
 │   ├── rock_paper_scissors_game.py
-│   └── dice_roller_program.py
+│   ├── dice_roller_program.py
+│   └── bank_program.py
 └── 07-name-main-pattern/
     ├── script1.py
     └── script2.py
@@ -256,3 +257,7 @@ Added match-case as an alternative to long elif chains, applied to a day-of-week
 ### Aug 19, 2026 - script1 & script2, Bro Code
 
 Covered if name == "main": for writing code that can be imported into another file without automatically running, keeping functions reusable and avoiding unintended execution. script1.py defines a function and its own main() guarded by the block; script2.py imports script1 with a wildcard import and reuses favourite_food inside its own separate main(). First real use of splitting logic across two files and controlling what runs where
+
+### Aug 20,2026 - banking_program, Bro Code
+
+Built a banking program using separate functions for showing balance, depositing, and withdrawing, a while loop menu tied to a running flag, and if name == "main": to control execution. Ties together functions, return values, and the main pattern covered in script1 and script2.
