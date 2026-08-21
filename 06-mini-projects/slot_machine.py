@@ -51,6 +51,7 @@ def main():
 
         if bet <= 0:
             print("Bet must be greater than 0")
+            continue
 
         balance -= bet
 
