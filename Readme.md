@@ -258,6 +258,10 @@ Added match-case as an alternative to long elif chains, applied to a day-of-week
 
 Covered if name == "main": for writing code that can be imported into another file without automatically running, keeping functions reusable and avoiding unintended execution. script1.py defines a function and its own main() guarded by the block; script2.py imports script1 with a wildcard import and reuses favourite_food inside its own separate main(). First real use of splitting logic across two files and controlling what runs where
 
-### Aug 20,2026 - banking_program, Bro Code
+### Aug 20, 2026 - banking_program, Bro Code
 
 Built a banking program using separate functions for showing balance, depositing, and withdrawing, a while loop menu tied to a running flag, and if name == "main": to control execution. Ties together functions, return values, and the main pattern covered in script1 and script2.
+
+### Aug 21, 2026 - slot_machine, Bro Code
+
+Built a slot machine using random.choice with a list comprehension to spin three symbols, a payout function matching three identical symbols to different multipliers, and a while loop tied to balance and a play-again prompt. Combines functions, return values, random, list comprehension, and the main pattern into one program.
