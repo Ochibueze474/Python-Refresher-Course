@@ -38,6 +38,7 @@ def main():
         print("1.Show balance")
         print("2.Deposit")
         print("3.withdraw")
+        print("4.Exit")
         print()
 
         choice = input("Enter your choice: ")
