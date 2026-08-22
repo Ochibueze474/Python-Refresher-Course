@@ -63,7 +63,8 @@ python-practice/
 │   ├── rock_paper_scissors_game.py
 │   ├── dice_roller_program.py
 │   ├── bank_program.py
-│   └── slot_machine.py
+│   ├── slot_machine.py
+│   └── encryption_program.py
 └── 07-name-main-pattern/
     ├── script1.py
     └── script2.py
@@ -266,3 +267,7 @@ Built a banking program using separate functions for showing balance, depositing
 ### Aug 21, 2026 - slot_machine, Bro Code
 
 Built a slot machine using random.choice with a list comprehension to spin three symbols, a payout function matching three identical symbols to different multipliers, and a while loop tied to balance and a play-again prompt. Combines functions, return values, random, list comprehension, and the main pattern into one program.
+
+### Aug 22, 2026 - encryption_program, Bro Code
+
+Built an encryption and decryption program using a substitution cipher, mapping every character to a shuffled version of itself with random.shuffle, then using index() to look up and swap characters between the two lists for encrypting and decrypting a message. Noted the key regenerates each run, so decrypt only works within the same session, matches how Bro Code built it.
