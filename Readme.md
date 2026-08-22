@@ -62,7 +62,8 @@ python-practice/
 │   ├── number_guessing_game.py
 │   ├── rock_paper_scissors_game.py
 │   ├── dice_roller_program.py
-│   └── bank_program.py
+│   ├── bank_program.py
+│   └── slot_machine.py
 └── 07-name-main-pattern/
     ├── script1.py
     └── script2.py
