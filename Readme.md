@@ -64,7 +64,8 @@ python-practice/
 │   ├── dice_roller_program.py
 │   ├── bank_program.py
 │   ├── slot_machine.py
-│   └── encryption_program.py
+│   ├── encryption_program.py
+│   └── hangman_art.py
 └── 07-name-main-pattern/
     ├── script1.py
     └── script2.py
@@ -271,3 +272,7 @@ Built a slot machine using random.choice with a list comprehension to spin three
 ### Aug 22, 2026 - encryption_program, Bro Code
 
 Built an encryption and decryption program using a substitution cipher, mapping every character to a shuffled version of itself with random.shuffle, then using index() to look up and swap characters between the two lists for encrypting and decrypting a message. Noted the key regenerates each run, so decrypt only works within the same session, matches how Bro Code built it.
+
+### Aug 24, 2026 - hangman_art, Bro Code
+
+Built a hangman game using a dictionary to store ASCII art for each wrong guess stage, a set to track guessed letters, and a hint list built with underscores that fills in as correct letters are guessed. Combines dictionaries, sets, lists, string joining, and the main pattern into one full game with win and lose conditions.
