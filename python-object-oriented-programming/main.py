@@ -4,11 +4,11 @@
 
 # class = (blueprints) used to design the structure and layout of an object
 
-from car import car
+from car import Car
 
-car1 = car("Lamborgini", 2026, "Black", True)
-car2 = car("Lexus", 2027, "Red", False)
-car3 = car("Ferrari", 2025, "Yellow", True)
+car1 = Car("Lamborgini", 2026, "Black", True)
+car2 = Car("Lexus", 2027, "Red", False)
+car3 = Car("Ferrari", 2025, "Yellow", True)
 
 print()
 print(car2.model)

@@ -56,7 +56,20 @@ python-practice/
 │   ├── keyword_argument.py
 │   └── args_&_kwargs.py
 ├── 05-oop/
-│   └── classes.py
+│   ├── classes.py
+│   ├── python-object-oriented-programming-example/
+│   |   ├── car.py
+│   |   └── main.py
+│   ├── class_variables.py
+│   ├── inheritance.py
+│   ├── multiple_inheritance.py
+│   ├── super.py
+│   ├── polymorphism.py
+│   ├── duck_typing.py
+│   ├── static_methods.py
+│   ├── class_methods.py
+│   ├── magic_methods.py
+│   └── property.py
 └── 06-mini-projects/
 │   ├── concession_stand_program.py
 │   ├── number_guessing_game.py
@@ -276,3 +289,47 @@ Built an encryption and decryption program using a substitution cipher, mapping 
 ### Aug 24, 2026 - hangman_art, Bro Code
 
 Built a hangman game using a dictionary to store ASCII art for each wrong guess stage, a set to track guessed letters, and a hint list built with underscores that fills in as correct letters are guessed. Combines dictionaries, sets, lists, string joining, and the main pattern into one full game with win and lose conditions.
+
+### Aug 24, 2026 - car-example, Bro Code
+
+Covered defining a class in one file and importing it into another, applied to a Car class with model, year, colour, and for_sale attributes, plus drive, stop, and describe methods. Ties class basics together with the import pattern covered in script1 and script2.
+
+### Aug 24, 2026 - class_variables, Bro Code
+
+Covered class variables shared across all instances, defined outside the constructor, used to track a running count of students created from the class.
+
+### Aug 24, 2026 - inheritance, Bro Code
+
+Covered a child class inheriting attributes and methods from a parent class, with each child overriding a shared method differently, applied to an Animal base class and Dog, Cat, and Lion subclasses.
+
+### Aug 24, 2026 - multiple_inheritance, Bro Code
+
+Covered a class inheriting from more than one parent, and multilevel inheritance where a class inherits from a class that itself inherits from another, applied to Prey and Predator as parents of Rabbit, Hawk, and Fish.
+
+### Aug 24, 2026 - super, Bro Code
+
+Covered super() for calling a parent class's method from inside a child class, extending rather than replacing the parent's behaviour, applied to a Shape base class with Circle, Square, and Triangle subclasses each adding their own area calculation before calling the shared describe().
+
+### Aug 24, 2026 - polymorphism, Bro Code
+
+Covered polymorphism through inheritance, where different shape classes all implement their own version of the same area() method, called the same way regardless of which shape it is, using ABC and abstractclassmethod to enforce the pattern.
+
+### Aug 24, 2026- duck_typing, Bro Code
+
+Covered the second way to achieve polymorphism, no shared inheritance required, just matching method names across unrelated classes, demonstrated with Dog, Cat, and Car all responding to the same speak() call.
+
+### Aug 25, 2026 - static_methods, Bro Code
+
+Covered @staticmethod for utility functions that belong to a class but do not need access to instance or class data, applied to validating a job position string against a list of allowed roles.
+
+### Aug 25, 2026 - class_methods, Bro Code
+
+Covered @classmethod and cls as the first parameter, used to calculate a running total and average GPA across all student instances without needing a specific instance.
+
+### Aug 25, 2026 - magic_methods, Bro Code
+
+Covered dunder methods that customize built-in behaviour: str for print output, eq for equality comparison, lt and gt for comparison operators, add for combining objects, contains for the in keyword, and getitem for dictionary-style key access, all applied to a Book class.
+
+### Aug 25, 2026 - property, Bro Code
+
+Covered the @property decorator for getter, setter, and deleter behaviour, letting a method be accessed like a plain attribute while still validating input, applied to width and height on a Rectangle class.
