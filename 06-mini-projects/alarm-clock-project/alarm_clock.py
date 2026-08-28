@@ -1,5 +1,8 @@
 # Python Alarm Clock
 
+import os
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "1"
+
 import time
 import datetime
 import pygame
@@ -29,5 +32,8 @@ def set_alarm(alarm_time):
 
 
 if __name__ == '__main__':
+    print()
+    print("Welcome to the Alarm Clock!")
     alarm_time = input("Enter the alarm time (HH:MM:SS): ")
+    print()
     set_alarm(alarm_time) 
