@@ -70,7 +70,7 @@ python-practice/
 │   ├── class_methods.py
 │   ├── magic_methods.py
 │   └── property.py
-└── 06-mini-projects/
+├── 06-mini-projects/
 │   ├── concession_stand_program.py
 │   ├── number_guessing_game.py
 │   ├── rock_paper_scissors_game.py
@@ -78,10 +78,22 @@ python-practice/
 │   ├── bank_program.py
 │   ├── slot_machine.py
 │   ├── encryption_program.py
-│   └── hangman_art.py
-└── 07-name-main-pattern/
-    ├── script1.py
-    └── script2.py
+│   ├── hangman_art.py
+│   └── alarm-clock-project/
+│       ├── alarm_clock.py
+│       └── my_music.mp3
+├── 07-name-main-pattern/
+│   ├── script1.py
+│   └── script2.py
+└── 09-advanced-topics/
+│    ├── decorator.py
+│    ├── exception_handling.py
+│    ├── dates_and_times.py
+│    ├── multithreading.py
+│    ├── request_api_data.py
+│    └── PyQt5-projects/
+│       ├── PyQt5_GUI_intro.py
+│       └── my_pic.png
 ```
 
 ## Progress Log
@@ -333,3 +345,31 @@ Covered dunder methods that customize built-in behaviour: str for print output, 
 ### Aug 25, 2026 - property, Bro Code
 
 Covered the @property decorator for getter, setter, and deleter behaviour, letting a method be accessed like a plain attribute while still validating input, applied to width and height on a Rectangle class.
+
+### Aug 26, 2026 - decorator, Bro Code
+
+Covered decorators, functions that wrap another function to extend its behaviour without modifying it, including stacking two decorators on top of the same function using @ syntax, applied to an ice cream order example.
+
+### Aug 26, 2026 - exception_handling, Bro Code
+
+Covered a deeper pass on try/except/finally, catching specific exceptions like ZeroDivisionError and ValueError separately before falling back to a general Exception catch, plus finally for cleanup that always runs. Builds on errors.py from Bobby Stearman's course with more targeted exception handling.
+
+### Aug 27, 2026 - dates_and_times, Bro Code
+
+Covered the datetime module: creating specific dates and times, getting the current date and time, formatting output with strftime, and comparing two datetime objects to check if a target date has passed.
+
+### Aug 27, 2026 - multithreading, Bro Code
+
+Covered running multiple functions concurrently using threading.Thread, starting each thread, then using join() to wait for all threads to finish before the program continues, applied to three chores running at the same time instead of one after another.
+
+### Aug 27, 2026 - request_api_data, Bro Code
+
+Covered connecting to a real external API using the requests library, sending a GET request, checking the response status code, and parsing JSON data back into usable values, applied to fetching Pokémon data from PokeAPI and also it requires an internet connection and a working requests install.
+
+### Aug 28, 2026 - alarm-clock-project, Bro Code
+
+Built an alarm clock using the pygame library to play a sound file once the current time matches the set alarm time, checked every second with a while loop, plus the datetime module for tracking current time and time.sleep for pausing between checks.
+
+### Aug 28, 2026 - PyQt5_GUI_intro, Bro Code
+
+Covered building a basic desktop GUI window using PyQt5, setting window title, size, and geometry, plus a custom window icon loaded from an image file. First GUI work outside the terminal-based programs done so far.
