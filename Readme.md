@@ -373,3 +373,35 @@ Built an alarm clock using the pygame library to play a sound file once the curr
 ### Aug 28, 2026 - PyQt5_GUI_intro, Bro Code
 
 Covered building a basic desktop GUI window using PyQt5, setting window title, size, and geometry, plus a custom window icon loaded from an image file. First GUI work outside the terminal-based programs done so far.
+
+### Aug 31, 2026 - PyQt5_QLabels, Bro Code
+
+Covered QLabel for displaying text, setting font, size, colour, and alignment options including centering both vertically and horizontally.
+
+### Aug 31, 2026 - PyQt5_Qimages, Bro Code
+
+Covered QPixmap for loading and displaying an image inside a QLabel, with scaled contents and centering the image within the window.
+
+### Aug 31, 2026 - PyQt5_layouts, Bro Code
+
+Covered QGridLayout for positioning widgets in a row and column grid instead of manual pixel coordinates, applied to five coloured labels.
+
+### Aug 31, 2026 - PyQt5_buttons, Bro Code
+
+Covered QPushButton connected to a click event using clicked.connect, updating a QLabel's text dynamically when the button is clicked.
+
+### Aug 31, 2026 - PyQt5_checkboxes, Bro Code
+
+Covered QCheckBox and its stateChanged signal, checking Qt.Checked to respond differently depending on whether the box is checked.
+
+### Sep 1, 2026 - PyQt5_radio_buttons, Bro Code
+
+Covered QRadioButton grouped with QButtonGroup so only one option per group can be selected at a time, applied to two separate groups, card type and purchase method, using toggled.connect to detect changes.
+
+### Sep 1, 2026 - PyQt5_line_edits, Bro Code
+
+Covered QLineEdit for text input paired with a submit button, reading the typed text with .text() when the button is clicked.
+
+### Sep 1, 2026 - PyQt5_css_styles, Bro Code
+
+Covered setStyleSheet with proper CSS-like syntax, targeting specific widgets by object name, including hover states for buttons, applied to three differently coloured buttons in a horizontal layout.
