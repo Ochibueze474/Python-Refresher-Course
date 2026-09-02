@@ -13,7 +13,7 @@ class MainWindow(QMainWindow):
         label = QLabel(self)
         label.setGeometry(0, 0, 250, 250)
 
-        pixmap = QPixmap("PyQt5-projects/my_pic.png")
+        pixmap = QPixmap("PyQt5-projects/PyQt5-Qimages/my_pic.png")
         label.setPixmap(pixmap)
 
         label.setScaledContents(True)
