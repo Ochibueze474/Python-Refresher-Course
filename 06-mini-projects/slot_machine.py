@@ -35,7 +35,7 @@ def main():
     print()
 
     while balance > 0:
-        print(f"Current balance is #{balance}")
+        print(f"Current balance is ${balance}")
 
         bet = input("Place your bet amount: ")
 
@@ -62,7 +62,7 @@ def main():
         payout = get_payout(row, bet)
 
         if payout > 0:
-            print(f"You Won #{payout}")
+            print(f"You Won ${payout}")
         else:
             print("Sorry you lost this round!")
 
@@ -74,7 +74,7 @@ def main():
             break
 
     print()
-    print(f"Game over! Your balance is #{balance}")
+    print(f"Game over! Your balance is ${balance}")
     print()
 
 
