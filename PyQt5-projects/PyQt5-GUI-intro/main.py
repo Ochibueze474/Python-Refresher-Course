@@ -8,7 +8,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("My cool first GUI")
         self.setGeometry(700, 300, 500, 500)
-        self.setWindowIcon(QIcon("PyQt5-projects/my_pic.png"))
+        self.setWindowIcon(QIcon("PyQt5-projects/PyQt5-GUI-intro/my_pic.png"))
 
 def main():
     app = QApplication(sys.argv)
