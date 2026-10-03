@@ -79,21 +79,36 @@ python-practice/
 │   ├── slot_machine.py
 │   ├── encryption_program.py
 │   ├── hangman_art.py
-│   └── alarm-clock-project/
-│       ├── alarm_clock.py
-│       └── my_music.mp3
+│   ├── alarm-clock-project/
+│   │   ├── alarm_clock.py
+│   │   └── my_music.mp3
+│   └── digital-clock-program/
+│       ├── main.py
+│       ├── my_pic.png
+│       └── DS-DIGIT.TTF
 ├── 07-name-main-pattern/
 │   ├── script1.py
 │   └── script2.py
-└── 09-advanced-topics/
-│    ├── decorator.py
-│    ├── exception_handling.py
-│    ├── dates_and_times.py
-│    ├── multithreading.py
-│    ├── request_api_data.py
-│    └── PyQt5-projects/
-│       ├── PyQt5_GUI_intro.py
-│       └── my_pic.png
+├── 09-advanced-topics/
+│   ├── decorator.py
+│   ├── exception_handling.py
+│   ├── dates_and_times.py
+│   ├── multithreading.py
+│   ├── request_api_data.py
+│   └── PyQt5-projects/
+│       ├── 01_PyQt5_GUI_intro.py
+│           ├── main.py
+│           └── my_pic.png
+│       ├── 02_PyQt5_QLabels.py
+│       ├── 03_PyQt5_Qimages.py
+│           ├── main.py
+│           └── my_pic.png
+│       ├── 04_PyQt5_QLayouts.py
+│       ├── 05_PyQt5_buttons.py
+│       ├── 06_PyQt5_checkboxes.py
+│       ├── 07_PyQt5_radio_buttons.py
+│       ├── 08_PyQt5_line_edits.py
+└──     └── 09_PyQt5_css_styles.py
 ```
 
 ## Progress Log
