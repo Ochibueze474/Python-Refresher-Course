@@ -405,3 +405,8 @@ Covered QLineEdit for text input paired with a submit button, reading the typed 
 ### Sep 1, 2026 - PyQt5-projects(09_PyQt5_css_styles), Bro Code
 
 Covered setStyleSheet with proper CSS-like syntax, targeting specific widgets by object name, including hover states for buttons, applied to three differently coloured buttons in a horizontal layout.
+
+### Sep 2, 2026 - Digital-clock-program, Bro Code mini-project folder
+
+Built a PyQt5 digital clock app. QTimer updates a QLabel every second via QTime.currentTime(), formatted as "hh:mm:ss AP".      Custom font loaded from a local .TTF file with QFontDatabase, styled with a black background and a large green digital-readout look. 
+Window icon set from a local PNG.
