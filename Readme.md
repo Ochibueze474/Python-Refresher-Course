@@ -423,5 +423,11 @@ Covered setStyleSheet with proper CSS-like syntax, targeting specific widgets by
 
 ### Sep 2, 2026 - Digital-clock-program, Bro Code mini-project folder
 
-Built a PyQt5 digital clock app. QTimer updates a QLabel every second via QTime.currentTime(), formatted as "hh:mm:ss AP".      Custom font loaded from a local .TTF file with QFontDatabase, styled with a black background and a large green digital-readout look. 
+Built a PyQt5 digital clock app. QTimer updates a QLabel every second via QTime.currentTime(), formatted as "hh:mm:ss AP".        Custom font loaded from a local .TTF file with QFontDatabase, styled with a black background and a large green digital-readout look. 
 Window icon set from a local PNG.
+
+### Oct 2, 2026 - Stopwatch-program
+
+A PyQt5 stopwatch with Start, Stop, and Reset buttons. QTimer ticks every 10ms and updates a big centered label showing hours:minutes:seconds.centiseconds.
+Reset zeroes everything back out. 
+Styled with a light-blue rounded label and bold buttons.
