@@ -90,7 +90,7 @@ python-practice/
 ├── 07-name-main-pattern/
 │   ├── script1.py
 │   └── script2.py
-├── 09-advanced-topics/
+├── 08-advanced-topics/
 │   ├── decorator.py
 │   ├── exception_handling.py
 │   ├── dates_and_times.py
@@ -98,12 +98,12 @@ python-practice/
 │   ├── request_api_data.py
 │   └── PyQt5-projects/
 │       ├── 01_PyQt5_GUI_intro.py
-│           ├── main.py
-│           └── my_pic.png
+│       │   ├── main.py
+│       │   └── my_pic.png
 │       ├── 02_PyQt5_QLabels.py
 │       ├── 03_PyQt5_Qimages.py
-│           ├── main.py
-│           └── my_pic.png
+│       │   ├── main.py
+│       │   └── my_pic.png
 │       ├── 04_PyQt5_QLayouts.py
 │       ├── 05_PyQt5_buttons.py
 │       ├── 06_PyQt5_checkboxes.py
