@@ -82,10 +82,11 @@ python-practice/
 │   ├── alarm-clock-project/
 │   │   ├── alarm_clock.py
 │   │   └── my_music.mp3
-│   └── digital-clock-program/
-│       ├── main.py
-│       ├── my_pic.png
-│       └── DS-DIGIT.TTF
+│   ├── digital-clock-program/
+│   │   ├── main.py
+│   │   ├── my_pic.png
+│   │   └── DS-DIGIT.TTF
+│   └── Stopwatch-program
 ├── 07-name-main-pattern/
 │   ├── script1.py
 │   └── script2.py
